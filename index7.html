@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bg-white m-0 p-0 object-contain">
+
+    <!-- nav bar-->
+    <div
+        class=" bg-gradient-to-r from-gray-100 to-white flex h-auto justify-between shadow-gray-800 drop-shadow-xl p-[5px] px-7 items-center max-[430px]:px-3  sticky top-0 z-10">
+        <div><a href="index.html"><img src="mainlogo.jpg" alt="collcom logo" class="hover: cursor-pointer max-[426px]:w-[160px] w-[200px] h-auto  max-w-[100%]">
+        </a></div>
+        <div>
+            <ul class="flex flex-row space-x-8 max-[430px]:space-x-4 items-center">
+                <a href="Aboutus.html">
+                    <li class="flex flex-col items-center ">
+                        <img src="aboutuslogo.png" alt="logo1"
+                            class="w-8 h-auto max-w-[100%] max-[430px]:w-6 hover:cursor-pointer" id="aboutus">
+                        <label for="aboutus" class="font-semibold max-[430px]:text-[12px] hover:cursor-pointer">About
+                            Us</label>
+
+                    </li>
+                </a>
+                <a href="#contactsection">
+                    <li class="flex flex-col  items-center ">
+                        <img src="contact_logo.png" alt="logo2" class="  hover:cursor-pointer w-8 h-auto max-w-[100%] max-[430px]:w-6"
+                            id="contact">
+                        <label for="contact" class="font-semibold max-[430px]:text-[12px]  hover:cursor-pointer">Contact</label>
+                    </li>
+                </a>
+            </ul>
+
+        </div>
+    </div>
+
+    <form id="myForm6" onsubmit="validateForm6(event)">
+        <div class=" bg-black flex justify-center space-x-3 p-[30px] px-[20px] ">
+            <div class=" ">
+                <img src="ss7_1.png"
+                    class="transition-transform  ease-in-out delay-50 max-[430px]:w-[350px] hover:scale-105 w-[500px] h-auto">
+            </div>
+
+        </div>
+
+        <div class=" bg-gray-100 flex justify-center space-x-3 pt-[30px] px-[20px]">
+            <div class=" ">
+                <img src="ss7_2.png"
+                    class="transition-transform  ease-in-out delay-50 max-[430px]:w-[350px] hover:scale-105 w-[550px] h-auto border-black border-8">
+            </div>
+
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-[30px]">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[700px] h-[300px]  max-[426px]:h-[400px] mt-[30px] rounded-[40px] bg-white px-[10px] p-[15px] ">
+                <p class="text-2xl font-mono  max-[430px]:text-[18px]">You are getting multiple calls of a person who is
+                    abusing or harassing
+                    you over the phone, what will you do?
+
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio1" required>
+                    <label class="input-list">Block the person
+
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio1" required>
+                    <label class="input-list">File a cyber complaint on <a href="https://collcom.org/"
+                            class=" text-blue-800">www.cybercrime.gov.in</a></label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio1" required>
+                    <label class="input-list">Inform to parent and discuss the matter</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio1" required>
+                    <label class="input-list"> All of the Above</label>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class=" bg-gray-100 flex justify-center space-x-3 pt-[30px] px-[20px] ">
+            <div class=" ">
+                <img src="ss7_3.png"
+                    class="transition-transform  ease-in-out delay-50 max-[430px]:w-[400px] hover:scale-105 w-[550px] h-auto shadow-2xl">
+            </div>
+
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-[30px]">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[700px] h-[290px]  max-[426px]:h-[430px] mt-[30px] rounded-[40px] bg-white px-[10px] p-[15px] ">
+                <p class="text-2xl font-mono  max-[430px]:text-[18px]">Have you ever attended "Online Training on Cyber
+                    Crime Awareness"
+                    organized by CollCom before?<br>
+                    The earlier Online Cyber Crime Awareness Training was organized under Mission Shakti 2020 (NSS)
+                    Campaign in year 2020, 2021 and 2022.
+
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio2" required>
+                    <label class="input-list">Yes
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio2" required>
+                    <label class="input-list">No</label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-[30px]">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[700px] h-[550px]  max-[426px]:h-[1000px] mt-[30px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+
+                <p class="text-2xl font-mono  max-[430px]:text-[18px]">Has this "Cyber Training on Cyber Crime
+                    Awareness" provided you a
+                    learning?
+                </p>
+                <br>
+
+                <div class=" block items-center my-[10px] ">
+                    <div class="mb-[15px]">
+                        <p class="text-[20px] max-[430px]:text-[19px] font-serif">Learning</p>
+                    </div>
+
+
+                    <div class="flex max-[426px]:flex-col max-[426px]:gap-5 flex-row items-baseline gap-20">
+                        <div class="items-baseline ">
+                            <input type="radio" class=" " name="radio3" required>
+                            <label class="font-bold">Poor</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio3" required>
+                            <label class="font-bold">Very Good</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio3" required>
+                            <label class="font-bold">Excellent</label>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" block items-center my-[40px] ">
+                    <div class="mb-[15px]">
+                        <p class="text-[20px] max-[430px]:text-[19px] font-serif">Usefulness</p>
+                    </div>
+
+
+                    <div class="flex max-[426px]:flex-col max-[426px]:gap-5 flex-row items-baseline gap-20">
+                        <div class="items-baseline ">
+                            <input type="radio" class=" " name="radio4" required>
+                            <label class="font-bold">Poor</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio4" required>
+                            <label class="font-bold">Very Good</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio4" required>
+                            <label class="font-bold">Excellent</label>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" block items-center my-[40px] ">
+                    <div class="mb-[15px]">
+                        <p class="text-[20px] max-[430px]:text-[19px] font-serif ">Presentation of Training Questions
+                            (Clear & Organized)</p>
+                    </div>
+
+
+                    <div class="flex max-[426px]:flex-col max-[426px]:gap-5 flex-row items-baseline gap-20">
+                        <div class="items-baseline ">
+                            <input type="radio" class=" " name="radio5" required>
+                            <label class="font-bold">Poor</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio5" required>
+                            <label class="font-bold">Very Good</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio5" required>
+                            <label class="font-bold">Excellent</label>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" block items-center my-[40px] ">
+                    <div class="mb-[15px]">
+                        <p class="text-[20px] max-[430px]:text-[19px] font-serif ">Relevance of Information Provided in
+                            the Cyber Training</p>
+                    </div>
+
+
+                    <div class="flex max-[426px]:flex-col max-[426px]:gap-5 flex-row items-baseline gap-20">
+                        <div class="items-baseline ">
+                            <input type="radio" class=" " name="radio6" required>
+                            <label class="font-bold">Poor</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio6" required>
+                            <label class="font-bold">Very Good</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio6" required>
+                            <label class="font-bold">Excellent</label>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- dont delete-->
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-[30px]">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[700px] h-[450px]  max-[426px]:h-[770px] mt-[30px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+
+                <p class="text-2xl font-mono  max-[430px]:text-[18px]">How likely will you recommend this cyber training
+                    program in your
+                    family and friends circle?
+                </p>
+                <br>
+
+                <div class=" block items-center my-[10px] ">
+                    <div class="mb-[15px]">
+                        <p class="text-[20px] max-[430px]:text-[19px] font-serif">Family</p>
+                    </div>
+
+
+                    <div class="flex max-[426px]:flex-col max-[426px]:gap-5 flex-row items-baseline gap-20">
+                        <div class="items-baseline ">
+                            <input type="radio" class=" " name="radio7" required>
+                            <label class="font-bold">Not likely</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio7" required>
+                            <label class="font-bold">Somewhat likely</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio7" required>
+                            <label class="font-bold">Very likely</label>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" block items-center my-[40px] ">
+                    <div class="mb-[15px]">
+                        <p class=" text-[20px] max-[430px]:text-[19px] font-serif">Friends</p>
+                    </div>
+
+
+                    <div class="flex max-[426px]:flex-col max-[426px]:gap-5 flex-row items-baseline gap-20">
+                        <div class="items-baseline ">
+                            <input type="radio" class=" " name="radio8" required>
+                            <label class="font-bold">Not likely</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio8" required>
+                            <label class="font-bold">Somewhat likely</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio8" required>
+                            <label class="font-bold">Very likely</label>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" block items-center my-[40px] ">
+                    <div class="mb-[15px]">
+                        <p class=" text-[20px] max-[430px]:text-[19px]  font-serif">Others</p>
+                    </div>
+
+
+                    <div class="flex max-[426px]:flex-col max-[426px]:gap-5 flex-row items-baseline gap-20">
+                        <div class="items-baseline ">
+                            <input type="radio" class=" " name="radio9" required>
+                            <label class="font-bold">Not likely</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio9" required>
+                            <label class="font-bold">Somewhat likely</label>
+
+                        </div>
+                        <div>
+                            <input type="radio" class=" " name="radio9" required>
+                            <label class="font-bold">Very likely</label>
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-[30px]">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[700px] h-[240px]  max-[426px]:h-[300px] mt-[30px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class="text-2xl font-mono  max-[430px]:text-[18px]">Would you like to participate in the
+                    Workshop/Webinar/Seminar on Cyber
+                    Crime Awareness?
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio10" required>
+                    <label class="input-list">Yes
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio10" required>
+                    <label class="input-list">No</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio10" required>
+                    <label class="input-list">Maybe</label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-[30px]">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[700px] h-[300px]  max-[426px]:h-[420px] mt-[30px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class="text-2xl font-mono  max-[430px]:text-[18px]">Would you like to participate in the Cyber
+                    Champion Ambassador Program
+                    of College/City/State/National Level to create awareness on Cyber Crime and Safety Precautions?
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio11" required>
+                    <label class="input-list">Yes
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio11" required>
+                    <label class="input-list">No</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio11" required>
+                    <label class="input-list">Maybe</label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-9 ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[426px]:h-[230px] max-[1024px]:w-[500px] w-[700px] h-[170px] mt-[40px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class="text-2xl font-mono  max-[430px]:text-[18px]">Any valuable suggestion or feedback to improve
+                    this training module on
+                    Cyber Crime Awareness
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="text" class=" border-black border-2 w-[560px] max-[426px]:w-[260px]" id="feedback"
+                        required>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="bg-gray-100 py-9">
+            <hr class="h-[15px] bg-black">
+
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-9 ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[426px]:h-[310px] max-[1024px]:w-[500px] w-[700px] h-[240px] mt-[40px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                <p class="text-2xl font-mono  max-[430px]:text-[18px] font-bold l">Full name
+                </p>
+                <p class="text-2xl font-mono  max-[430px]:text-[18px]">This exact name will be printed on the
+                    certificate, Please capitalize
+                    first word of each name.
+                    For example, Mohan Sharma
+                </p>
+
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="text" placeholder="Your name"
+                        class=" border-black border-2 w-[560px] max-[426px]:w-[260px] p-1" id="feedback" required>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-[30px]">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[426px]:h-[420px] max-[1024px]:w-[500px] w-[700px] h-[310px] mt-[40px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class="text-2xl font-mono  max-[430px]:text-[18px]">Would you like to participate in the Cyber
+                    Champion Ambassador Program
+                    of College/City/State/National Level to create awareness on Cyber Crime and Safety Precautions?
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio12" required>
+                    <label class="input-list">Male
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio12" required>
+                    <label class="input-list">Female</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio12" required>
+                    <label class="input-list">Transgender</label>
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-9 ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[400px]:h-[140px] max-[426px]:h-[120px] max-[1024px]:w-[500px] w-[700px] h-[150px] mt-[40px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class="text-2xl font-mono  max-[430px]:text-[18px] font-bold">Mobile number
+                </p><br>
+
+
+                <div class="flex flex-row  items-baseline gap-1">
+                    <input type="text" placeholder="Your mobile number"
+                        class=" border-black border-2 w-[560px] max-[426px]:w-[260px] p-1" id="feedback" required>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-9 ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[700px] h-[220px]  max-[426px]:h-[260px] mt-[30px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class="text-2xl font-mono  max-[430px]:text-[18px] font-bold ">City
+                </p>
+                <p class="text-2xl font-mono max-[430px]:text-[18px]">If you are not from India (Please write the
+                    Country Name (City, State
+                    and Country Name
+                </p>
+
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="text" placeholder="Your city"
+                        class=" border-black border-2 w-[560px] max-[426px]:w-[260px]" id="feedback" required>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-9 ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[700px] h-[240px]  max-[426px]:h-[310px] mt-[30px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class="text-2xl font-mono  max-[430px]:text-[18px] font-bold">If you are studying or working, write
+                    down the name
+                    of school or college or university or workplace
+                </p>
+                <p class="text-2xl font-mono  max-[430px]:text-[18px]">If you are not working, just write "Not Working"
+                </p>
+
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="text" class=" border-black border-2 w-[560px]  max-[426px]:w-[260px]" id="feedback"
+                        required>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-9 ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[700px] h-[130px]  max-[426px]:h-[150px] mt-[30px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                <p class=" text-2xl font-mono  max-[430px]:text-[20px]  ">State
+                </p>
+                <select id="state-dropdown" class="mt-[15px] w-[560px]  max-[426px]:w-[260px] border-2 border-black"
+                    required>
+                    <option value="">-- Select State --</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-9 ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[700px] h-[160px]  max-[426px]:h-[200px] mt-[30px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                <p class="text-2xl font-mono max-[430px]:text-[20px]  ">How did you come to know about this Cyber
+                    Training Program?
+                </p>
+                <select id="state-dropdown" class="mt-[15px] w-[560px]  max-[426px]:w-[260px] border-2 border-black"
+                    required>
+                    <option value="">-- Choose --</option>
+                    <option>WhatsApp</option>
+                    <option>Instagram</option>
+                    <option>Facebook</option>
+                    <option>Telegram</option>
+                    <option>Youtube</option>
+                    <option>Goggle</option>
+                    <option>College/School</option>
+                    <option>Website</option>
+                    <option>Email</option>
+                    <option>Newspaper</option>
+                    <option>Any other science</option>
+
+
+                </select>
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-9 ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[700px] h-[250px]  max-[426px]:h-[330px] mt-[30px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class="text-2xl font-mono  max-[430px]:text-[18px] font-bold">Kindly write the Full Name of the
+                    person who has
+                    shared this training program
+                </p>
+                <p class="text-2xl font-mono  max-[430px]:text-[18px]">Write the sender Full Name or If you do not know,
+                    then write "CollCom"
+                </p>
+
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="text" class=" border-black border-2 w-[560px]  max-[426px]:w-[260px]" id="feedback"
+                        required>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100 p-9 flex items-center justify-center ">
+            <div
+                class="border-solid border-black border-8 w-[700px] h-[400px] max-[430px]:h-[630px]  max-[380px]:h-[590px]  rounded-[40px] bg-white p-[30px]  max-[380px]:p-[15px]">
+                <p class="text-2xl font-mono  max-[430px]:text-[20px]"><b>Acknowledgment</b>
+                </p>
+                <br>
+                <ul class=" px-[3px] list-none">
+
+                    <li type="radio" class="input-list mb-[15px]" name="radio13" required>
+                        We would like to thanks our volunteers or interns or well wishers for helping us in designing
+                        content, creating videos, and giving us valuable feedback for this cyber training. </li>
+                    <li type="radio" class="input-list mb-[15px]" name="radio13" required>In some cases, they show
+                        unnecessary urgency and are willing to pay even without checking the item, claiming that
+                        they don’t to miss out on the deal.
+                    </li>
+                    <li type="radio" class="input-list mb-[15px]" name="radio13" required>
+
+                        Please do share this cyber training in you network or WhatsApp group and also encourage them to
+                        learn and share. </li>
+                    <li type="radio" class="input-list mb-[15px]" name="radio13" required>
+                        For Further for any queries or suggestions, please feel happy to write us on
+                        director@collcom.org
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100  flex items-center justify-center p-9 ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[700px] h-[250px]  max-[426px]:h-[390px] mt-[30px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                <p class=" text-2xl font-mono  max-[430px]:text-[20px]  ">How did you come to know about this Cyber
+                    Training Program?
+                </p><br>
+                <div class="">
+                    <input type="checkbox" id="checkbox1" name="checkbox1" required>
+                    <label for="checkbox1" class=" font-bold">
+                        You agree that you would not copy the content or poster or reproduce this cyber training without
+                        permission from CollCom in any form for business purposes.</label><br>
+                    <br>
+                    <input type="checkbox" id="checkbox2" name="checkbox2" required>
+                    <label for="checkbox2" class="font-bold">You agree to give us consent to use your response for
+                        research and analytics purposes.</label><br>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-100 justify-center flex pt-[80px] ">
+            <button
+                class=" max-w-[100%] w-[300px] h-[100px] rounded-[100px] bg-[#E17537] text-white text-2xl font-bold hover:scale-110  duration-100 delay-75 ease-in-out animate-bounce"
+                type="submit">
+                Submit
+            </button>
+
+        </div>
+    </form>
+
+    <div class="bg-gray-100">
+        <br><br><br><br><br><br><br><br>
+    
+    
+        </div>
+
+        <div id="contactsection"
+        class=" bg-[url('cb8.avif')] bg-[rgba(0,0,0,0.7)] bg-cover p-[40px] max-[430px]:p-5 flex flex-row justify-around px-[40px] gap-[400px] items-baseline max-[1025px]:px-[100px] max-[1025px]:gap-[170px] max-[770px]:px-[50px] max-[770px]:gap-[130px]  max-[430px]:bg-cover max-[430px]: bg-no-repeat max-[430px]:px-[30px] max-[430px]:justify-center max-[430px]:gap-0 ">
+
+        <div class="flex flex-col w-[50%] max-[430px]:hidden">
+            <h2 class="text-[40px] font-sans font-semibold text-white mb-[15px]">CollCom</h2>
+            <hr class="h-[5px] bg-orange-600 w-[180px]"><br>
+            <p class="leading-9 text-white wrap text-[16px]">CollCom is a College-Community network, a youth driven
+                non-profitable students’ community
+                organization, established to strengthen the National Service Scheme units, NYKS, and other youth led
+                organizations in +2 schools and colleges across the country. It is also certifed with 12A and 80G of
+                Income Tax Act, 1961.</p>
+
+        </div>
+        <div class="flex flex-col w-[50%] max-[430px]:justify-center max-[430px]:items-center">
+            <h2 class="text-[40px] font-sans font-semibold text-white mb-[10px] max-[430px]:mb-[10px] max-[430px]:text-center">Contact</h2>
+            <hr class="h-[6px] bg-orange-600 w-[150px] max-[430px]:text-center"><br>
+            <br>
+            <div>
+                <div class="flex flex-row gap-4">
+                    <img src="cc5.png" class="w-[30px] max-[430px]:w-[25px] max-[430px]:h-[25px]">
+                    <p class=" text-white font-sans text-[17px]">+91-9868189955</p>
+
+                </div><br>
+                <div class="flex flex-row gap-4">
+                    <img src="cc6.png" class="w-[30px]">
+                    <p class=" text-white font-sans text-[17px]">director@collcom.org</p>
+
+                </div><br>
+                <div class="flex flex-row gap-4">
+                    <img src="cc7.png" class="w-[30px]">
+                    <p class=" text-white font-sans text-[17px]">New Delhi, India.</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+        function validateForm6(event) {
+            event.preventDefault();
+            if (document.getElementById("myForm6").checkValidity()) {
+
+            }
+        }
+
+    </script>
+</body>
+
+</html>
+
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

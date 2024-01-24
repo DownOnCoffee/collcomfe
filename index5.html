@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body class="bg-white m-0 p-0 object-contain ">
+    <!-- nav bar-->
+    <div class=" bg-gradient-to-r from-gray-100 to-white flex h-auto justify-between shadow-gray-800 drop-shadow-xl p-[5px] px-7 items-center max-[430px]:px-3  sticky top-0 z-10">
+        <div><a href="index.html"><img src="mainlogo.jpg" alt="collcom logo" class="hover: cursor-pointer max-[426px]:w-[160px] w-[200px] h-auto  max-w-[100%]">
+        </a></div>
+            <ul class="flex flex-row space-x-8 max-[430px]:space-x-4 items-center">
+                <a href="Aboutus.html">
+                    <li class="flex flex-col items-center ">
+                        <img src="aboutuslogo.png" alt="logo1"
+                            class="w-8 h-auto max-w-[100%] max-[430px]:w-6 hover:cursor-pointer" id="aboutus">
+                        <label for="aboutus" class="font-semibold max-[430px]:text-[12px] hover:cursor-pointer">About
+                            Us</label>
+
+                    </li>
+                </a>
+                <a href="#contactsection">
+                    <li class="flex flex-col  items-center ">
+                        <img src="contact_logo.png" alt="logo2" class="  hover:cursor-pointer w-8 h-auto max-w-[100%] max-[430px]:w-6"
+                            id="contact">
+                        <label for="contact" class="font-semibold max-[430px]:text-[12px]  hover:cursor-pointer">Contact</label>
+                    </li>
+                </a>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <form id="myForm4" onsubmit="validateForm4(event)">
+
+        <div class=" bg-gray-100 shadow-md flex justify-around px-[20px]  max-[770px]:px-[100px] max-[430px]:px-[20px] pt-[40px] max-[770px]:flex-col max-[770px]:gap-5">
+            <div class=" flex">
+                <img src="ss5_1.png"
+                    class=" w-[20%] h-[350px] max-[1025px]:w-[15%] flex-1 max-[770px]:w-[350px] max-[430px]:w-[200px]  max-[430px]:h-[300px] transition-transform  ease-in-out delay-50 hover:scale-105">
+            </div>
+            <div class="flex">
+                <img src="ss5_2.png"
+                    class="  w-[20%] h-[350px] max-[1025px]:w-[15%] flex-1  transition-transform max-[430px]:w-[200px] max-[430px]:h-[300px] ease-in-out delay-50 hover:scale-105">
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100 p-9  flex items-center justify-center ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[430px]:w-[330px] max-[769px]:h-[300px] max-[1024px]:w-[500px] w-[600px] h-[250px]  max-[430px]:h-[340px] mt-[60px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class="max-[430px]:text-[20px] text-2xl font-mono">How will you define social media cloning?
+
+                </p>
+                <br>
+                <div class="text-left ">
+
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class=" " name="radio1" required>
+                        <label class="input-list"> Duplicate the person's social media profile</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class=" " name="radio1" required>
+                        <label class="input-list"> Creating fake account of existing user for abusing and
+                            marketing</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class=" " name="radio1" required>
+                        <label class="input-list"> Making another social media platform</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class=" " name="radio1" required>
+                        <label class="input-list"> Option A and B</label>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class=" bg-gray-100 flex  max-[770px]:justify-center max-[770px]:flex-col max-[770px]:gap-8 max-[430px]:px-[20px] space-x-3 pt-[20px] max-[770px]:px-[140px] px-[20px] ">
+            <div class="  ">
+                <img src="ss5_3.png"
+                    class="transition-transform max-[770px]:w-[450px] max-[430px]:w-[370px] ease-in-out delay-50 hover:scale-105 w-[500px] h-auto">
+            </div>
+            <div class="">
+                <img src="ss5_4.png"
+                    class="transition-transform max-[770px]:w-[450px] max-[430px]:w-[370px] ease-in-out delay-50 hover:scale-105 w-[500px] h-auto">
+            </div>
+            <div class=" ">
+                <img src="ss5_5.png"
+                    class="transition-transform max-[770px]:w-[450px] max-[430px]:w-[370px] ease-in-out delay-50 hover:scale-105 w-[500px] h-auto">
+            </div>
+
+        </div>
+
+        <div class=" w-full bg-gray-100 p-9 flex items-center justify-center ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[430px]:w-[330px] max-[380px]:h-[400px] max-[769px]:h-[330px] max-[1024px]:w-[500px] w-[600px] h-[270px]  max-[430px]:h-[350px] mt-[60px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class="max-[430px]:text-[20px] text-2xl font-mono">What is the learning from this story?
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio2" required>
+                    <label class="input-list">Always set the profile picture and friend list public
+
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class="" name="radio2" required>
+                    <label class="input-list"> Make your profile picture and others information visible to your friends
+                        only</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio2" required>
+                    <label class="input-list"> Report the fraudulent account to social media and also file a cyber
+                        complaint</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio2" required>
+                    <label class="input-list"> Both B and C</label>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="bg-gray-100 flex  max-[770px]:justify-center max-[770px]:flex-col max-[770px]:gap-8 max-[430px]:px-[20px] space-x-3 pt-[20px] max-[770px]:px-[140px] px-[20px]  ">
+            <div class=" ">
+                <img src="ss5_6.png"
+                    class="transition-transform max-[770px]:w-[450px] ease-in-out delay-50 hover:scale-105 w-[500px] h-auto">
+            </div>
+            <div class="  ">
+                <img src="ss5_7.png"
+                    class="transition-transform max-[770px]:w-[450px] ease-in-out delay-50 hover:scale-105 w-[500px] h-auto">
+            </div>
+            <div class="">
+                <img src="ss5_8.png"
+                    class="transition-transform max-[770px]:w-[450px] ease-in-out delay-50 hover:scale-105 w-[500px] h-auto">
+            </div>
+
+        </div>
+
+
+        <div class=" w-full bg-gray-100 p-9 flex items-center justify-center ">
+            <div
+                class="border-solid border-orange-600 border-4 max-[430px]:w-[330px]  max-[380px]:h-[600px] max-[769px]:h-[400px] max-[1024px]:w-[500px] w-[600px] h-[390px]  max-[430px]:h-[550px] mt-[60px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                <p class="max-[430px]:text-[20px] text-2xl font-mono">You receive a friend request on Facebook on the name of your school female
+                    friend and a beautiful smart profile picture, what will you do?
+                </p>
+                <br>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio3" required>
+                    <label class="input-list"> In the profile picture, Girl is very beautiful, will accept the friend
+                        request directly
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio3" required>
+                    <label class="input-list"> will call and verify whether the Girl is Authentic or Fraud</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio3" required>
+                    <label class="input-list"> Will check the other details like biography, friends connected, active
+                        time on Facebook before accepting the friend request</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio3" required>
+                    <label class="input-list"> Both B and C</label>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+        <div class=" w-full bg-gray-100 p-9 flex items-center justify-center  ">
+            <div
+                class="border-solid border-black border-8 w-[600px] h-[500px] rounded-[40px] bg-white p-[30px] max-[430px]:h-[860px] max-[380px]:h-[900px] max-[380px]:p-[15px] ">
+                <p class=" text-2xl font-mono  max-[430px]:text-[20px]"><b>Two Factor Authentication and Strong Password</b>
+                </p>
+                <br>
+                <ul class="list-decimal px-[20px]">
+
+                    <li type="radio" class="input-list mb-[15px]"  required> Gmail and all Social Media
+                        platforms including WhatsApp are giving a security feature of securing the login account using
+                        Two- Factor or Multi factor Authentication. </li>
+                    <li type="radio" class="input-list mb-[15px]" required>Two factor authentication means    
+                        once you enter user id and password to login your account, then it ask for One Type Password
+                        (OTP) which is sent on your registered phone number to confirm the authenticity of the user
+                    </li>
+                    <li type="radio" class="input-list mb-[15px]" required>Enabling this feature will help
+                        account to protect from hacking. </li>
+                    <li type="radio" class="input-list mb-[15px]"  required> Always use combination of
+                        number, alphabets and special symbols to create Strong Password.</li>
+                    <li type="radio" class="input-list mb-[15px]"  required> if someone posted abusing or
+                        disturbing picture on social media, then click on the post and immediately report to Social
+                        Media. </li>
+
+
+
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100 p-5 flex items-center justify-center ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[430px]:w-[330px] max-[769px]:h-[230px] max-[1024px]:w-[500px] w-[600px] h-[230px]  max-[430px]:h-[270px] mt-[60px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                <p class="max-[430px]:text-[20px] text-2xl font-mono">Have you enabled the two factor authentication on your Gmail or other
+                    email account?
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio5" required>
+                    <label class="input-list">Yes
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio5" required>
+                    <label class="input-list"> No</label>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100 p-5 flex items-center justify-center ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[430px]:w-[330px] max-[769px]:h-[300px] max-[1024px]:w-[500px] w-[600px] h-[270px]  max-[430px]:h-[320px] mt-[60px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class="max-[430px]:text-[20px] text-2xl font-mono">Have you enabled the two factor authentication for your
+                     Social Media (Facebook/Instagram/Twitter/
+                     Linkdein/WhatsApp/SnapChat) account?
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio6" required>
+                    <label class="input-list">Yes
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio6" required>
+                    <label class="input-list"> No</label>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100 p-5 flex items-center justify-center ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[430px]:w-[330px] max-[769px]:h-[280px] max-[1024px]:w-[500px] w-[600px] h-[280px]  max-[430px]:h-[300px] mt-[60px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                <p class="max-[430px]:text-[20px]  text-2xl font-mono">Which of the following option indicates the strong password
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio7" required>
+                    <label class="input-list">12345#
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio7" required>
+                    <label class="input-list"> 08-01-1992</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio7" required>
+                    <label class="input-list"> Sohan1992</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio7" required>
+                    <label class="input-list"> #Sohan@27!</label>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class=" bg-gray-100 flex justify-center space-x-3 pt-[20px] px-[20px] ">
+            <div class=" ">
+                <img src="ss5_9.png"
+                    class="transition-transform  ease-in-out delay-50 max-[430px]:w-[350px] hover:scale-105 w-[500px] h-auto">
+            </div>
+
+        </div>
+
+        <div class=" w-full bg-gray-100 p-5 flex items-center justify-center ">
+            <div
+                class="border-solid border-black border-8 w-[650px] h-[280px] mt-[40px] max-[430px]:h-[350px] max-[380px]:h-[370px] rounded-[40px] bg-white  max-[430px]:p-[20px] p-[30px] max-[380px]:p-[15px] ">
+                <p class="max-[430px]:text-[20px] text-2xl font-mono"><b>Romance Fraud</b>
+                </p>
+                <br>
+                <ul class="list-decimal px-[20px]">
+
+                    <li type="radio" class="input-list mb-[15px]" name="radio8" required>
+                        The fraudster befriend people on social media or gaming sites or dating applications in the
+                        name of old school friends or long distance relatives. </li>
+                    <li type="radio" class="input-list mb-[15px]" name="radio8" required>Over a period, the attacker
+                        gains the victim’s affection. The attacker later
+                        exploits the victim physically, financially and/or emotionally. </li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class=" bg-gray-100 flex items-center justify-center p-[30px]">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/TRgcrOSfOw8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div>
+
+        <div class=" w-full bg-gray-100 p-5 flex items-center justify-center ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[430px]:w-[330px] max-[769px]:h-[270px] max-[1024px]:w-[500px] w-[600px] h-[270px]  max-[430px]:h-[330px] mt-[60px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class="max-[430px]:text-[20px] text-2xl font-mono">In the above video, what mistake the person did?
+
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio9" required>
+                    <label class="input-list">He accepted the friend request of unknown people
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio9" required>
+                    <label class="input-list"> He blindly trusted the person and paid money</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio9" required>
+                    <label class="input-list">Both a and b</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio9" required>
+                    <label class="input-list"> He did everything right</label>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class=" bg-gray-100 flex justify-center space-x-3 p-[20px] px-[20px] ">
+            <div class=" ">
+                <img src="ss5_10.png"
+                    class="transition-transform  ease-in-out delay-50 hover:scale-105 max-[430px]:w-[350px] w-[500px] h-auto">
+            </div>
+
+        </div>
+
+        <div class=" w-full bg-gray-100 p-9 flex items-center justify-center ">
+            <div
+                class="border-solid border-black border-8 w-[650px] h-[450px] mt-[40px] max-[430px]:h-[800px] max-[380px]:h-[800px]  rounded-[40px] bg-white p-[30px] max-[380px]:p-[15px] ">
+                <p class="max-[430px]:text-[20px] text-2xl font-mono"><b>How it works</b>
+                </p>
+                <br>
+                <ul class="list-decimal px-[20px]">
+
+                    <li type="radio" class="input-list mb-[15px]" name="radio10" required> Some times fraudster honey
+                        trapped the victim and convince to send revealing or naked photos of themselves, then fraudster
+                        threaten victim to post these photos. </li>
+                    <li type="radio" class="input-list mb-[15px]" name="radio10" required>Some victims are fooled into
+                        taking part in explicit video chats. or user receives a video call from an unknown number and a
+                        girl naked video was recorded with the user.
+                    </li>
+                    <li type="radio" class="input-list mb-[15px]" name="radio10" required>A recording of the explicit
+                        video is then used to extort money from the
+                        victim, with the blackmailer threatening that it will be posted online. </li>
+                    <li type="radio" class="input-list mb-[15px]" name="radio10" required>Victim start getting
+                        threatening calls from different numbers in the name of Enforcement Law Officer, You tube
+                        manager and Lawyer to make more payment. Here TrueCaller generally misguides the victim to trust
+                        the call.</li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class=" bg-gray-100 flex justify-center space-x-3 p-2 px-[20px] ">
+            <div class=" ">
+                <img src="ss5_11.png"
+                    class="transition-transform  ease-in-out delay-50 hover:scale-105 max-[430px]:w-[350px] w-[550px] h-auto">
+            </div>
+
+        </div>
+
+        <div class=" w-full bg-gray-100 p-5 flex items-center justify-center ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[430px]:w-[330px] max-[769px]:h-[370px] max-[1024px]:w-[500px] w-[600px] h-[270px]  max-[430px]:h-[400px] mt-[60px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class=" max-[430px]:text-[20px] text-2xl font-mono">What happens in Honey Trapped Video Call?
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio11" required>
+                    <label class="input-list">Innocent users are fooled into taking part in explicit video chats
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio11" required>
+                    <label class="input-list"> A recording of the explicit video is used to extort money from the
+                        victim</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio11" required>
+                    <label class="input-list">The user receives a video call from an unknown number and a girl naked
+                        video was recorded with the user</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio11" required>
+                    <label class="input-list">All of the above</label>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100 flex items-center justify-center p-9  ">
+            <div
+                class="border-solid border-black border-8 w-[650px] h-[270px]  rounded-[40px] max-[430px]:h-[400px] max-[380px]:h-[380px] bg-white p-[30px]  max-[380px]:p-[15px] ">
+                <p class="max-[430px]:text-[20px] text-2xl font-mono"><b>Safety Precautions</b>
+                </p>
+                <br>
+                <ul class="list-decimal px-[20px]">
+
+                    <li type="radio" class="input-list mb-[15px]" name="radio12" required>Do not trust on True Caller
+                        Name. </li>
+                    <li type="radio" class="input-list mb-[15px]" name="radio12" required> Do not trust the unknown
+                        number WhatsApp DP Profile Picture
+                    </li>
+                    <li type="radio" class="input-list mb-[15px]" name="radio12" required>If you receive the harassment
+                        call or messages, collect the evidences and file a complaint on <a href="https://collcom.org/"
+                            class=" text-blue-800">www.cybercrime.gov.in</a></li>
+
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class=" w-full bg-gray-100 p-5 flex items-center justify-center ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[430px]:w-[330px] max-[769px]:h-[570px] max-[1024px]:w-[500px] w-[600px] h-[500px]  max-[430px]:h-[700px] mt-[60px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                <p class=" max-[430px]:text-[20px] text-2xl font-mono">You come to know that someone posted your personal photos on social
+                    media and then you receive a call from unknown person (True Caller is displaying the name Criminal
+                    Lawyer Advocate), and he says that a complain has been registered against you and you have been
+                    asked to pay 5000 Rs to settle down the case, what will you do?
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio13" required>
+                    <label class="input-list"> Will pay the amount
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio13" required>
+                    <label class="input-list"> Will follow the instructions of Criminal Layer Advocate</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio13" required>
+                    <label class="input-list"> Will not trust the True Caller, and File the complaint against the caller
+                        on <a href="https://collcom.org/" class=" text-blue-800">www.cybercrime.gov.in</a></label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio13" required>
+                    <label class="input-list"> Will ignore the call</label>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class=" bg-gray-100 flex justify-center space-x-3 p-5 px-[20px] ">
+            <div class=" ">
+                <img src="ss5_12.png"
+                    class="transition-transform  ease-in-out delay-50 hover:scale-105 max-[430px]:w-[350px] w-[500px] h-auto">
+            </div>
+
+        </div>
+
+        <div class=" w-full bg-gray-100 p-5 flex items-center justify-center ">
+
+            <div
+                class="border-solid border-orange-600 border-4 max-[430px]:w-[330px] max-[769px]:h-[370px] max-[1024px]:w-[500px] w-[600px] h-[300px]  max-[430px]:h-[400px] mt-[60px] rounded-[40px] bg-white px-[10px] pt-[15px] ">
+                <p class=" max-[430px]:text-[20px] text-2xl font-mono">What safety precautions people should take to prevent honey trapped?
+
+                </p>
+                <br>
+
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio14" required>
+                    <label class="input-list">Enable two factor authentications to login the social media account
+                    </label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio14" required>
+                    <label class="input-list">Don’t accept friend requests from unknown while looking only smart
+                        picture</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio14" required>
+                    <label class="input-list">Don’t recieve video call from unknown number</label>
+                </div>
+                <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                    <input type="radio" class=" " name="radio14" required>
+                    <label class="input-list">All of the above</label>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="bg-gray-100 justify-center flex pt-[80px] ">
+            <button
+                class=" max-w-[100%] w-[300px] h-[100px] rounded-[100px] bg-[#E17537] text-white text-2xl font-bold hover:scale-110  duration-100 delay-75 ease-in-out animate-bounce"
+                type="submit">
+                Next Page
+            </button>
+
+        </div>
+
+
+    </form>
+    <div class="bg-gray-100">
+    <br><br><br><br><br><br><br><br>
+
+
+    </div>
+
+
+        <div id="contactsection"
+        class=" bg-[url('cb8.avif')] bg-[rgba(0,0,0,0.7)] bg-cover p-[40px] max-[430px]:p-5 flex flex-row justify-around px-[40px] gap-[400px] items-baseline max-[1025px]:px-[100px] max-[1025px]:gap-[170px] max-[770px]:px-[50px] max-[770px]:gap-[130px]  max-[430px]:bg-cover max-[430px]: bg-no-repeat max-[430px]:px-[30px] max-[430px]:justify-center max-[430px]:gap-0 ">
+
+        <div class="flex flex-col w-[50%] max-[430px]:hidden">
+            <h2 class="text-[40px] font-sans font-semibold text-white mb-[15px]">CollCom</h2>
+            <hr class="h-[5px] bg-orange-600 w-[180px]"><br>
+            <p class="leading-9 text-white wrap text-[16px]">CollCom is a College-Community network, a youth driven
+                non-profitable students’ community
+                organization, established to strengthen the National Service Scheme units, NYKS, and other youth led
+                organizations in +2 schools and colleges across the country. It is also certifed with 12A and 80G of
+                Income Tax Act, 1961.</p>
+
+        </div>
+        <div class="flex flex-col w-[50%] max-[430px]:justify-center max-[430px]:items-center">
+            <h2 class="text-[40px] font-sans font-semibold text-white mb-[10px] max-[430px]:mb-[10px] max-[430px]:text-center">Contact</h2>
+            <hr class="h-[6px] bg-orange-600 w-[150px] max-[430px]:text-center"><br>
+            <br>
+            <div>
+                <div class="flex flex-row gap-4">
+                    <img src="cc5.png" class="w-[30px] max-[430px]:w-[25px] max-[430px]:h-[25px]">
+                    <p class=" text-white font-sans text-[17px]">+91-9868189955</p>
+
+                </div><br>
+                <div class="flex flex-row gap-4">
+                    <img src="cc6.png" class="w-[30px]">
+                    <p class=" text-white font-sans text-[17px]">director@collcom.org</p>
+
+                </div><br>
+                <div class="flex flex-row gap-4">
+                    <img src="cc7.png" class="w-[30px]">
+                    <p class=" text-white font-sans text-[17px]">New Delhi, India.</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <script>
+        function validateForm4(event) {
+            event.preventDefault();
+            if (document.getElementById("myForm4").checkValidity()) {
+                window.location.href = "index6.html";
+            }
+        }
+
+    </script>
+</body>
+
+</html>

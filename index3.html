@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body class="m-0 p-0 object-contain bg-gray-100">
+    <!-- nav bar-->
+    <!-- nav bar-->
+    <div class=" bg-gradient-to-r from-gray-100 to-white flex h-auto justify-between shadow-gray-800 drop-shadow-xl p-[5px] px-7 items-center max-[426px]:px-3">
+        <div><a href="index.html"><img src="mainlogo.jpg" alt="collcom logo" class="hover: cursor-pointer max-[426px]:w-[160px] w-[200px] h-auto  max-w-[100%]">
+        </a></div>
+            <ul class="flex flex-row space-x-8 max-[430px]:space-x-4 items-center">
+                <a href="Aboutus.html">
+                    <li class="flex flex-col items-center ">
+                        <img src="aboutuslogo.png" alt="logo1"
+                            class="w-8 h-auto max-w-[100%] max-[430px]:w-6 hover:cursor-pointer" id="aboutus">
+                        <label for="aboutus" class="font-semibold max-[430px]:text-[12px] hover:cursor-pointer">About
+                            Us</label>
+
+                    </li>
+                </a>
+                <a href="#contactsection">
+                    <li class="flex flex-col  items-center ">
+                        <img src="contact_logo.png" alt="logo2" class="  hover:cursor-pointer w-8 h-auto max-w-[100%] max-[430px]:w-6"
+                            id="contact">
+                        <label for="contact" class="font-semibold max-[430px]:text-[12px]  hover:cursor-pointer">Contact</label>
+                    </li>
+                </a>
+            </ul>
+
+        </div>
+        
+
+
+    </div>
+
+
+    <!--hindi heading-->
+    <div class=" h-auto bg-red-100 shadow-gray-300 shadow-lg flex justify-center">
+        <img src="hindiline.jpg" class="  w-[800px] h-auto  max-w-[100%] z-0">
+
+    </div>
+
+    <!-- 3 columns, questions in the middle section-->
+    <div class="gap-0 mt-[50px] flex flex-row px-[30px] max-[1024px]:justify-center">
+
+        <!--1st column-->
+        <div class=" w-[25%] ">
+            <!--blank-->
+        </div>
+
+        <!--2nd column-->
+        <form  id="myForm2" onsubmit="validateForm2(event)">
+            <div class=" w-[50%] px-[30px]">
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[300px] max-[1024px]:w-[500px] w-[600px] max-[426px]:h-[300px] h-[250px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl">Where did you file the complaint?</p>
+                    <br>
+                    <div class="">
+                        <input type="checkbox" id="checkbox1" name="checkbox1" value="Local Police Station" >
+                        <label for="checkbox1" class="input-list">Local Police Station</label><br>
+
+                        <input type="checkbox" id="checkbox2" name="checkbox2" value="Cyber Police Station">
+                        <label for="checkbox2" class="input-list">Cyber Police Station</label><br>
+
+                        <input type="checkbox" id="checkbox3" name="checkbox3"
+                            value="Online Complaint on Cyber Crime Portal">
+                        <label for="checkbox3" class="input-list">Online Complaint on Cyber Crime Portal</label><br>
+
+                        <input type="checkbox" id="checkbox4" name="checkbox4" value="Dialed 100">
+                        <label for="checkbox4" class="input-list">Dialed 100</label><br>
+
+                        <input type="checkbox" id="checkbox5" name="checkbox5" value="Dialed 155620 or 1930" >
+                        <label for="checkbox5" class="input-list">Dialed 155620 or 1930</label><br>
+
+                        <input type="checkbox" id="checkbox6" name="checkbox6" value="other" >
+                        <label for="checkbox6" class="input-list">Other</label>
+
+                    </div>
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[300px] max-[1025px]:h-[180px] max-[1024px]:w-[500px] w-[600px] max-[426px]:h-[200px]  h-[180px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl">Was your complaint resolved?</p>
+                    <br>
+                    
+                        <div class="flex flex-row ">
+                            <input type="radio" class=" " name="radio1" required>
+                            <label class="input-list"> Yes</label>
+                        </div>
+                        <div class="flex flex-row ">
+                            <input type="radio" class=" " name="radio1" required>
+                            <label class="input-list"> No</label>
+                        </div>
+                        <div class="flex flex-row ">
+                            <input type="radio" class="  " name="radio1" required>
+                            <label class="input-list"> Under Investigation</label>
+                        </div>
+                
+
+
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[300px] max-[426px]:h-[550px] max-[1025px] max-[1024px]:w-[500px] w-[600px]  h-[400px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl">What is the status of Complaint?</p>
+                    <br>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class=" " name="radio2" required>
+                        <label class="input-list"> It was resolved and criminal was arrested but deducted money was not
+                            returned</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class=" " name="radio2" required>
+                        <label class="input-list"> It was resolved and criminal was arrested and deducted money was also
+                            returned</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="  " name="radio2" required>
+                        <label class="input-list">It was resolved and criminal was not arrested and deducted money was
+                            returned</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="  " name="radio2" required>
+                        <label class="input-list">Complaint was closed without any investigation</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="  " name="radio2" required>
+                        <label class="input-list">It is still pending (Under Investigation)</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="  " name="radio2" required>
+                        <label class="input-list">Other</label>
+                    </div>
+
+
+
+                </div>
+
+                
+
+            </div>
+            <div class="bg-gray-100 justify-center flex pt-[80px] ">
+                <button
+                    class=" max-w-[100%] w-[300px] h-[100px] rounded-[100px] bg-[#E17537] text-white text-2xl font-bold hover:scale-110  duration-100 delay-75 ease-in-out animate-bounce"
+                    type="submit">
+                    Next Page
+                </button>
+    
+            </div>
+        </form>
+
+        <!--3rd column-->
+        <div class=" w-[25%]">
+            <!--blank-->
+
+        </div>
+
+
+    </div>
+
+    <br><br><br><br><br><br><br><br><br>
+
+        <div id="contactsection"
+        class=" bg-[url('cb8.avif')] bg-[rgba(0,0,0,0.7)] bg-cover p-[40px] max-[430px]:p-5 flex flex-row justify-around px-[40px] gap-[400px] items-baseline max-[1025px]:px-[100px] max-[1025px]:gap-[170px] max-[770px]:px-[50px] max-[770px]:gap-[130px]  max-[430px]:bg-cover max-[430px]: bg-no-repeat max-[430px]:px-[30px] max-[430px]:justify-center max-[430px]:gap-0 ">
+
+        <div class="flex flex-col w-[50%] max-[430px]:hidden">
+            <h2 class="text-[40px] font-sans font-semibold text-white mb-[15px]">CollCom</h2>
+            <hr class="h-[5px] bg-orange-600 w-[180px]"><br>
+            <p class="leading-9 text-white wrap text-[16px]">CollCom is a College-Community network, a youth driven
+                non-profitable students’ community
+                organization, established to strengthen the National Service Scheme units, NYKS, and other youth led
+                organizations in +2 schools and colleges across the country. It is also certifed with 12A and 80G of
+                Income Tax Act, 1961.</p>
+
+        </div>
+        <div class="flex flex-col w-[50%] max-[430px]:justify-center max-[430px]:items-center">
+            <h2 class="text-[40px] font-sans font-semibold text-white mb-[10px] max-[430px]:mb-[10px] max-[430px]:text-center">Contact</h2>
+            <hr class="h-[6px] bg-orange-600 w-[150px] max-[430px]:text-center"><br>
+            <br>
+            <div>
+                <div class="flex flex-row gap-4">
+                    <img src="cc5.png" class="w-[30px] max-[430px]:w-[25px] max-[430px]:h-[25px]">
+                    <p class=" text-white font-sans text-[17px]">+91-9868189955</p>
+
+                </div><br>
+                <div class="flex flex-row gap-4">
+                    <img src="cc6.png" class="w-[30px]">
+                    <p class=" text-white font-sans text-[17px]">director@collcom.org</p>
+
+                </div><br>
+                <div class="flex flex-row gap-4">
+                    <img src="cc7.png" class="w-[30px]">
+                    <p class=" text-white font-sans text-[17px]">New Delhi, India.</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+        function validateForm2(event) {
+            event.preventDefault();
+            if (document.getElementById("myForm2").checkValidity()) {
+                window.location.href = "index4.html";
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>

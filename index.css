@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.input-list{
+    @apply font-semibold;
+}
+.scrolled{
+    @apply bg-orange-600;
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Change opacity as needed */
+  }
+
+
+
+

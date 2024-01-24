@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class=" m-0 p-0 object-contain bg-gray-100">
+    <!-- nav bar-->
+    <div class=" bg-gradient-to-r from-gray-100 to-white flex h-auto justify-between shadow-gray-800 drop-shadow-xl p-[5px] px-7 items-center max-[426px]:px-3 sticky top-0 z-10">
+        <div><a href="index.html"><img src="mainlogo.jpg" alt="collcom logo" class="hover: cursor-pointer max-[426px]:w-[160px] w-[200px] h-auto  max-w-[100%]">
+        </a></div>
+            <ul class="flex flex-row space-x-8 max-[430px]:space-x-4 items-center">
+                <a href="Aboutus.html">
+                    <li class="flex flex-col items-center ">
+                        <img src="aboutuslogo.png" alt="logo1"
+                            class="w-8 h-auto max-w-[100%] max-[430px]:w-6 hover:cursor-pointer" id="aboutus">
+                        <label for="aboutus" class="font-semibold max-[430px]:text-[12px] hover:cursor-pointer">About
+                            Us</label>
+
+                    </li>
+                </a>
+                <a href="#contactsection">
+                    <li class="flex flex-col  items-center ">
+                        <img src="contact_logo.png" alt="logo2" class="  hover:cursor-pointer w-8 h-auto max-w-[100%] max-[430px]:w-6"
+                            id="contact">
+                        <label for="contact" class="font-semibold max-[430px]:text-[12px]  hover:cursor-pointer">Contact</label>
+                    </li>
+                </a>
+            </ul>
+
+        </div>
+        
+
+
+    </div>
+
+    <!--hindi heading-->
+    <div class=" h-auto bg-red-100 shadow-gray-300 shadow-lg flex justify-center">
+        <img src="hindiline.jpg" class="  w-[800px] h-auto  max-w-[100%] z-0">
+
+    </div>
+
+    <!-- 3 columns, questions in the middle section-->
+
+    <div class=" gap-0 mt-[50px] flex flex-row px-[30px]  max-[1024px]:justify-center">
+
+        <!--1st column-->
+        <div class="subdivision1 flex w-[25%] justify-center max-[1024px]:hidden">
+            <div>
+                <img src="ss1.png"
+                class="w-[550px] h-[200px] border-4 border-separate  -rotate-12 border-black mt-[3500px] shadow-xl max-w-[100%] ">
+
+            </div>
+            
+        </div>
+
+        <!--2nd column-->
+        <form  id="myForm" onsubmit="validateForm(event)">
+            <div class=" w-[50%] max-[1024px]:w-[100%] px-[30px] max-[430px]:px-0 " >
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[426px]:h-[110px] max-[1024px]:w-[500px] w-[600px] h-[130px] mt-[40px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                    <p class=" text-2xl font-mono max-[426px]:text-xl">Email</p>
+                    <input type="email" class="max-[1025px]:w-[450px] w-[550px] max-[426px]:w-[300px] border-2 border-black border-opacity-60 shadow-lg required rounded-[10px] h-auto" required>
+                </div>
+
+                <div class="border-solid border-orange-600 border-4  max-[426px]:h-[180px] max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] max-[1025px]:h-[180px]  h-[150px] mt-[40px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl ">Do you know about Internet (Cyber) Crime?</p><br>
+                    <div class="flex flex-row">
+                        <input type="radio" class="" name="radio0" required>
+                        <label class="input-list"> Yes</label>
+                    </div>
+                    <div class="flex flex-row">
+                        <input type="radio" class="" name="radio0" required>
+                        <label class="input-list"> No</label>
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] h-[270px]  max-[426px]:h-[300px] mt-[60px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                    <p class=" text-2xl font-mono max-[426px]:text-xl ">Cyber Crime (Internet Crime) is
+                    </p><br>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="" name="radio1" required>
+                        <label class="input-list "> Stealing personal information</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="" name="radio1" required>
+                        <label class="input-list"> Spreading the virus, Spreading rumours on social networking
+                            sites</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="=" name="radio1" required>
+                        <label class="input-list "> Software piracy, Fake bank call</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="" name="radio1" required>
+                        <label class="input-list "> All of the above
+                        </label>
+                    </div>
+
+
+                </div>
+
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] h-[270px] max-[426px]:h-[280px] mt-[40px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl  ">Cyber Crime also leads to
+                    </p><br>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="" name="radio2" required>
+                        <label class="input-list ">Physical or sexual abuse</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="" name="radio2" required>
+                        <label class="input-list"> Defamation of an individual on social media</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="" name="radio2" required>
+                        <label class="input-list ">Damage our reputation</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="" name="radio2" required>
+                        <label class="input-list "> All of the above
+                        </label>
+                    </div>
+                </div>
+
+                <div class=" max-[1025px]:flex max-[1025px]:justify-center  max-[1024px]:mx-auto max-[2560px]:hidden">
+                    <img src="ss2.png"
+                        class="w-[320px] max-[426px]:w-[300px] h-auto border-4 border-separate border-opacity-80 rotate-12 max-[1024px]:rotate-0 border-black mt-[1000px] max-[1024px]:mt-[40px] max-[1024px]:w-[350px] max-w-[100%] ">
+        
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px]  max-[426px]:h-[310px]  h-[270px] mt-[40px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                    <p class=" text-2xl font-mono max-[426px]:text-xl  ">What do you think about the most probable reason of cyber attack?
+                    </p><br>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="" name="radio3" required>
+                        <label class="input-list ">Using Internet all the time</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="" name="radio3" required>
+                        <label class="input-list">Playing Games online
+                        </label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="" name="radio3" required>
+                        <label class="input-list ">Human Negligence</label>
+                    </div>
+                    <div class="flex flex-row mb-[15px] items-baseline gap-1">
+                        <input type="radio" class="" name="radio3" required>
+                        <label class="input-list "> All of the above</label>
+                    </div>
+                </div>
+
+                <div class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] h-[160px] mt-[40px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                    <p class=" text-2xl font-mono max-[426px]:text-xl  ">How many hours you use Smartphone in a day?
+
+                    </p>
+                    <select class=" mt-[15px] w-[300px] border-2 border-black" required>
+                        <option value="">--Choose--</option>
+                        <option>Not more than 2 hours in day</option>
+                        <option> 2-4 Hours in a day</option>
+                        <option> 4-6 Hours in a day</option>
+                        <option> 6-8 hours in a day</option>
+                        <option> 8-10 hours in a day</option>
+                        <option> 10-12 Hours in a day</option>
+                        <option> More than 12 hours</option>
+                        <option> I do not use/have Smartphone</option>
+
+                    </select>
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] max-[426px]:h-[150px] h-[160px] mt-[40px] rounded-[40px] bg-white px-[10px] pt-[15px]">
+                    <p class=" text-2xl font-mono max-[426px]:text-xl">When do you spend your maximum time on Smartphone?
+                    </p>
+                    <select class=" mt-[15px] w-[300px] border-2 border-black" required>
+                        <option value="">--Choose--</option>
+                        <option>Just after Wakeup in the morning</option>
+                        <option> In AfternoonIn Evening</option>
+                        <option> In the Night before Sleep</option>
+                        <option> Can't say, Smartphone usage depends upon my requirements</option>
+
+
+                    </select>
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] max-[426px]:h-[220px] h-[190px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl ">Your Internet data is always (24*7 even during sleep) ON or SWITCH ON
+                        only when it is required ?
+                    </p>
+                    <select class=" mt-[15px] w-[300px] border-2 border-black" required>
+                        <option value="">--Choose--</option>
+                        <option>I switch ON internet only when it is required</option>
+                        <option>I always keep my internet ON (24*7 even during sleep)</option>
+                        <option>I do not use/have smart phone.</option>
+                    </select>
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] max-[426px]:h-[180px] h-[160px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class=" text-2xl font-mono max-[426px]:text-xl ">How many hours you use Laptop or Computer in a day ?
+
+                    </p>
+                    <select class=" mt-[15px] w-[300px] border-2 border-black" required>
+                        <option value="">--Choose--</option>
+                        <option>Not more than 2 hours in day</option>
+                        <option> 2-4 Hours in a day</option>
+                        <option> 4-6 Hours in a day</option>
+                        <option> 6-8 hours in a day</option>
+                        <option> 8-10 hours in a day</option>
+                        <option> 10-12 Hours in a day</option>
+                        <option> More than 12 hours</option>
+                        <option> I do not use/have Smartphone</option>
+
+                    </select>
+
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1025px]:h-[130px] max-[1024px]:w-[500px] w-[600px] h-[160px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class=" text-2xl font-mono max-[426px]:text-xl"> Your Age group
+                    </p>
+                    <select class="mt-[15px] w-[300px] border-2 border-black">
+                        <option value="">--Choose--</option>
+                        <option>16-21 years</option>
+                        <option>Under 15 years</option>
+                        <option>30-36 years</option>
+                        <option>30-36 years</option>
+                        <option>37 years and above</option>
+                        <option>22-29 years</option>
+                    </select>
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] max-[426px]:h-[230px] h-[210px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl">Have you attended any seminar or webinar or workshop on Cyber Crime
+                        and Security Awareness?</p><br>
+                    <div class="flex flex-row">
+                        <input type="radio" class="float-left ml-[10px]" name="radio4" required>
+                        <label class="input-list"> Yes</label>
+                    </div>
+                    <div class="flex flex-row">
+                        <input type="radio" class="float-left ml-[10px]" name="radio4" required>
+                        <label class="input-list"> No</label>
+                    </div>
+
+
+                </div>
+                <div class=" max-[1025px]:flex max-[1025px]:justify-center  max-[1024px]:mx-auto max-[2560px]:hidden">
+                    <img src="ss1.png"
+                        class="w-[320px] max-[426px]:w-[300px] h-auto border-4 border-separate border-opacity-80 rotate-12 max-[1024px]:rotate-0 border-black mt-[1000px] max-[1024px]:mt-[40px] max-[1024px]:w-[350px] max-w-[100%] ">
+        
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] max-[426px]:h-[180px] h-[160px] mt-[100px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class=" text-2xl font-mono max-[426px]:text-xl"> Are you aware about Cyber Crime Safety Precautions tips?
+                    </p>
+                    <select class=" mt-[15px] w-[300px] border-2 border-black" required>
+                        <option value="">--Choose--</option>
+
+                        <option>I dont have any knowledge</option>
+                        <option>I have little knowledge</option>
+                        <option>I have good knowledge</option>
+                        <option>I am expert in cyber</option>
+
+                    </select>
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] max-[426px]:h-[220px] h-[190px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl">Do you know where to file an Internet (Cyber) Crime Complaint?
+                    </p><br>
+                    <div class="flex flex-row">
+                        <input type="radio" class="" name="radio5" required>
+                        <label class="input-list"> Yes</label>
+                    </div>
+                    <div class="flex flex-row">
+                        <input type="radio" class="" name="radio5" required>
+                        <label class="input-list"> No</label>
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1025px]:h-[180px] max-[1024px]:w-[500px] w-[600px]  h-[160px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl ">Have you ever been victim of Cyber Crime?
+                    </p><br>
+                    <div class="flex flex-row">
+                        <input type="radio" class="" name="radio6" required>
+                        <label class="input-list "> Yes</label>
+                    </div>
+                    <div class="flex flex-row">
+                        <input type="radio" class="" name="radio6" required>
+                        <label class="input-list"> No</label>
+                    </div>
+
+
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] max-[426px]:h-[850px] h-[790px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl ">Any type of Cyber Crime happened with you?</p><br>
+                    <div class="text-left ml-[20px]">
+                        <input type="checkbox" id="checkbox1" name="checkbox1" value="Online Romance Fraud" >
+                        <label for="checkbox1" class="input-list">Online Romance Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox2" name="checkbox2"
+                            value="Online Video Call Sexotortion Fraud" >
+                        <label for="checkbox2" class="input-list">Online Video Call Sexotortion Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox3" name="checkbox3" value="Fraud Call" >
+                        <label for="checkbox3" class="input-list">Fraud Call</label><br>
+
+                        <input type="checkbox" id="checkbox4" name="checkbox4" value="Lottery Fraud" >
+                        <label for="checkbox4" class="input-list">Lottery Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox5" name="checkbox5"
+                            value="Kaun Banega Crorepati (KBC) Fraud" >
+                        <label for="checkbox5" class="input-list">Kaun Banega Crorepati (KBC) Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox6" name="checkbox6" value="Know Your Customer KYCI Fraud" >
+                        <label for="checkbox6" class="input-list">Know Your Customer KYCI Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox7" name="checkbox7" value="BIll Payment Fraud" >
+                        <label for="checkbox7" class="input-list">BIll Payment Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox8" name="checkbox8" value="OLX Fraud" >
+                        <label for="checkbox8" class="input-list">OLX Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox9" name="checkbox9" value="Online Garring Fraud" >
+                        <label for="checkbox9" class="input-list">Online Garring Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox10" name="checkbox10" value="Job Offer Fraud" >
+                        <label for="checkbox10" class="input-list">Job Offer Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox11" name="checkbox11"
+                            value="Part Time Job/Work From Home Fraud" >
+                        <label for="checkbox11" class="input-list">Part Time Job/Work From Home Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox12" name="checkbox12" value="Social Media Account Hacked">
+                        <label for="checkbox12" class="input-list">Social Media Account Hacked</label><br>
+
+                        <input type="checkbox" id="checkbox13" name="checkbox13"
+                            value="Social Media Account Cloned (Fake Account Created of Busting User)" >
+                        <label for="checkbox13" class="input-list">Social Media Account Cloned (Fake Account Created of
+                            Busting User)</label><br>
+
+                        <input type="checkbox" id="checkbox14" name="checkbox14" value="WhatsApp Account Hacked" >
+                        <label for="checkbox14" class="input-list">WhatsApp Account Hacked</label><br>
+
+                        <input type="checkbox" id="checkbox15" name="checkbox15" value="Small Account Hacked" >
+                        <label for="checkbox15" class="input-list">Small Account Hacked</label><br>
+
+                        <input type="checkbox" id="checkbox16" name="checkbox16" value="Phofororhpism Fraud">
+                        <label for="checkbox16" class="input-list">Phofororhpism Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox17" name="checkbox17" value="Fake Govt Scheme Fraud">
+                        <label for="checkbox17" class="input-list">Fake Govt Scheme Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox18" name="checkbox18" value="Fake Loan Offer Fraud" >
+                        <label for="checkbox18" class="input-list">Fake Loan Offer Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox19" name="checkbox19" value="Cyber Bullying" >
+                        <label for="checkbox19" class="input-list">Cyber Bullying</label><br>
+
+                        <input type="checkbox" id="checkbox20" name="checkbox20"
+                            value="Abusing or Harrasment on Social Media">
+                        <label for="checkbox20" class="input-list">Abusing or Harrasment on Social Media</label><br>
+
+                        <input type="checkbox" id="checkbox21" name="checkbox21" value="Trolling on Social Media" >
+                        <label for="checkbox21" class="input-list">Trolling on Social Media</label><br>
+
+                        <input type="checkbox" id="checkbox22" name="checkbox22" value="Cyber Staking">
+                        <label for="checkbox22" class="input-list">Cyber Staking</label><br>
+
+                        <input type="checkbox" id="checkbox23" name="checkbox23" value="Courier Lottery Fraud">
+                        <label for="checkbox23" class="input-list">Courier Lottery Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox24" name="checkbox24" value="Online Shopping Fraud" >
+                        <label for="checkbox24" class="input-list">Online Shopping Fraud</label><br>
+
+                        <input type="checkbox" id="checkbox25" name="checkbox25" value="Online Customer Helpline Fruad" >
+                        <label for="checkbox25" class="input-list">Online Customer Helpline Fruad</label><br>
+
+                        <input type="checkbox" id="checkbox26" name="checkbox26" value="Not happened any crime" >
+                        <label for="checkbox26" class="input-list">Not happened any crime</label><br>
+                    </div>
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] max-[426px]:h-[500px] h-[470px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl">If Cyber Crime happened with you, when did it happen?</p><br>
+                    <div class="">
+                        <input type="checkbox" id="checkbox1" name="checkbox1" value="Not Applicable">
+                        <label for="checkbox1" class="input-list">Not Applicable</label><br>
+
+                        <input type="checkbox" id="checkbox2" name="checkbox2"
+                            value="In the Morning just after Wake Up">
+                        <label for="checkbox2" class="input-list">In the Morning just after Wake Up</label><br>
+
+                        <input type="checkbox" id="checkbox3" name="checkbox3" value="In the Morning">
+                        <label for="checkbox3" class="input-list">In the Morning</label><br>
+
+                        <input type="checkbox" id="checkbox4" name="checkbox4" value="In the Afternoon at Home">
+                        <label for="checkbox4" class="input-list">In the Afternoon at Home</label><br>
+
+                        <input type="checkbox" id="checkbox5" name="checkbox5" value="In the Evening">
+                        <label for="checkbox5" class="input-list">In the Evening</label><br>
+
+                        <input type="checkbox" id="checkbox6" name="checkbox6" value="In the Night" >
+                        <label for="checkbox6" class="input-list">In the Night</label><br>
+
+                        <input type="checkbox" id="checkbox7" name="checkbox7" value="During Eating" >
+                        <label for="checkbox7" class="input-list">During Eating</label><br>
+
+                        <input type="checkbox" id="checkbox8" name="checkbox8" value="During Reading" >
+                        <label for="checkbox8" class="input-list">During Reading</label><br>
+
+                        <input type="checkbox" id="checkbox9" name="checkbox9" value="During Office Work Time" >
+                        <label for="checkbox9" class="input-list">During Office Work Time</label><br>
+
+                        <input type="checkbox" id="checkbox10" name="checkbox10" value="During Watching Something" >
+                        <label for="checkbox10" class="input-list">During Watching Something</label><br>
+
+                        <input type="checkbox" id="checkbox11" name="checkbox11" value="During Travelling">
+                        <label for="checkbox11" class="input-list">During Travelling</label><br>
+
+                        <input type="checkbox" id="checkbox12" name="checkbox12"
+                            value="During Attending Party or any kind of Functions">
+                        <label for="checkbox12" class="input-list">During Attending Party or any kind of
+                            Functions</label><br>
+
+                        <input type="checkbox" id="checkbox13" name="checkbox13" value="Other" >
+                        <label for="checkbox13" class="input-list">Other</label><br>
+                    </div>
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1024px]:w-[500px] w-[600px] h-[300px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl">If Cyber Crime happened with you, when did it happen?</p><br>
+                    <div class="">
+                        <input type="radio" id="radio" name="radio7" value="less than 5000" required>
+                        <label for="radio1" class="input-list">Less than 5000</label><br>
+
+                        <input type="radio" id="radio2" name="radio7" value="5000-20000" required>
+                        <label for="radio2" class="input-list">5000-20000</label><br>
+
+                        <input type="radio" id="radio3" name="radio7" value="20000-50000" required>
+                        <label for="radio3" class="input-list">20000-50000</label><br>
+
+                        <input type="radio" id="radio4" name="radio7" value="50000-100000" required>
+                        <label for="radio4" class="input-list">50000-100000</label><br>
+
+                        <input type="radio" id="radio5" name="radio7" value="More than 100000" required>
+                        <label for="radio5" class="input-list">More than 100000</label><br>
+
+                        <input type="radio" id="radio6" name="radio7" value="I did not lose any money" required>
+                        <label for="radio6" class="input-list">I did not lose any money</label><br>
+                    </div>
+                </div>
+
+                <div
+                    class="border-solid border-orange-600 border-4 max-[426px]:w-[330px] max-[1025px]:h-[170px] max-[1024px]:w-[500px] w-[600px] max-[426px]:h-[150px] h-[200px] mt-[40px] rounded-[40px] bg-white pt-[15px] px-[10px]">
+                    <p class="text-2xl font-mono max-[426px]:text-xl">Did you file complaint?</p><br>
+                    <div class="flex flex-row">
+                        <input type="radio" class="" name="radio8" required>
+                        <label class="input-list"> Yes, i filed the complaint</label>
+                    </div>
+                    <div class="flex flex-row">
+                        <input type="radio" class="" name="radio8" required>
+                        <label class="input-list"> No, i did not filed the complaint</label>
+                    </div>
+                    
+                </div>
+                <!-- Next page button-->
+                
+
+            </div>
+            <div class="bg-gray-100 justify-center flex pt-[80px] ">
+                <button
+                    class=" max-w-[100%] w-[300px] h-[100px] rounded-[100px] bg-[#E17537] text-white text-2xl font-bold hover:scale-110  duration-100 delay-75 ease-in-out animate-bounce"
+                    type="submit">
+                    Next Page
+                </button>
+    
+            </div>
+        </form>
+
+        
+
+        <!--3rd coluumn-->
+        <div class="subdivision3 w-[25%] max-[1024px]:hidden">
+            <img src="ss2.png"
+                class="w-[320px] h-auto border-4 border-separate border-opacity-80 rotate-12 border-black mt-[1000px] max-w-[100%]">
+
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br>
+
+        <div id="contactsection"
+        class=" bg-[url('cb8.avif')] bg-[rgba(0,0,0,0.7)] bg-cover p-[40px] max-[430px]:p-5 flex flex-row justify-around px-[40px] gap-[400px] items-baseline max-[1025px]:px-[100px] max-[1025px]:gap-[170px] max-[770px]:px-[50px] max-[770px]:gap-[130px]  max-[430px]:bg-cover max-[430px]: bg-no-repeat max-[430px]:px-[30px] max-[430px]:justify-center max-[430px]:gap-0 ">
+
+        <div class="flex flex-col w-[50%] max-[430px]:hidden">
+            <h2 class="text-[40px] font-sans font-semibold text-white mb-[15px]">CollCom</h2>
+            <hr class="h-[5px] bg-orange-600 w-[180px]"><br>
+            <p class="leading-9 text-white wrap text-[16px]">CollCom is a College-Community network, a youth driven
+                non-profitable students’ community
+                organization, established to strengthen the National Service Scheme units, NYKS, and other youth led
+                organizations in +2 schools and colleges across the country. It is also certifed with 12A and 80G of
+                Income Tax Act, 1961.</p>
+
+        </div>
+        <div class="flex flex-col w-[50%] max-[430px]:justify-center max-[430px]:items-center">
+            <h2 class="text-[40px] font-sans font-semibold text-white mb-[10px] max-[430px]:mb-[10px] max-[430px]:text-center">Contact</h2>
+            <hr class="h-[6px] bg-orange-600 w-[150px] max-[430px]:text-center"><br>
+            <br>
+            <div>
+                <div class="flex flex-row gap-4">
+                    <img src="cc5.png" class="w-[30px] max-[430px]:w-[25px] max-[430px]:h-[25px]">
+                    <p class=" text-white font-sans text-[17px]">+91-9868189955</p>
+
+                </div><br>
+                <div class="flex flex-row gap-4">
+                    <img src="cc6.png" class="w-[30px]">
+                    <p class=" text-white font-sans text-[17px]">director@collcom.org</p>
+
+                </div><br>
+                <div class="flex flex-row gap-4">
+                    <img src="cc7.png" class="w-[30px]">
+                    <p class=" text-white font-sans text-[17px]">New Delhi, India.</p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+        function validateForm(event) {
+            event.preventDefault(); 
+            if (document.getElementById("myForm").checkValidity()) {
+              window.location.href = "index3.html";
+            }
+          }
+
+          window.addEventListener('scroll', function() {
+            var navbar = document.getElementById('navbar');
+        
+            if (window.pageYOffset > 0) {
+              navbar.classList.add('scrolled');
+            } else {
+              navbar.classList.remove('scrolled');
+            }
+          });
+
+    
+        </script>
+      </body>
+      </html>
+
+    </script>
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>
